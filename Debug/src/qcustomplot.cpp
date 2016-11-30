@@ -1138,7 +1138,7 @@ bool QCPLayerable::moveToLayer(QCPLayer *layer, bool prepend)
   if (mLayer)
     mLayer->addChild(this, prepend);
   if (mLayer != oldLayer)
-    emit layerChanged(mLayer);
+    Q_EMIT layerChanged(mLayer);
   return true;
 }
 
