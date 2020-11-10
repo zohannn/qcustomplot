@@ -6,6 +6,6 @@ QCustomPlot is a Qt C++ widget for plotting and data visualization. It has no fu
 ```Bash
 git clone https://github.com/zohannn/qcustomplot
 cd build
-qmake
+qmake-qt4
 make
 ```
